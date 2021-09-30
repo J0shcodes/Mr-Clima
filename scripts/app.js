@@ -8,7 +8,6 @@ const updateUi = (data) => {
 
   // destructure properties
   const {cityDetails, weather} = data;
-  console.log(data);
 
   // update details template  
   details.innerHTML = `
